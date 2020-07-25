@@ -1,0 +1,100 @@
+body{
+	font-family: 'arial';
+	background-color: black;
+}
+h1{
+	background-color: #fc4e4e;
+	color: black;
+	margin-top: -0.7%;
+	width:101%; 
+	margin-left: -0.5%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+#divUpper{
+	padding-top: 10px;
+}
+#butt, #but, input{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+input{
+	background-color: #fc4e4e;
+	color: black;
+	border: 3px solid #212121;
+}
+button{
+	background-color: #fc4e4e;
+	color: black;
+	border: 3px solid #212121;
+}
+#divLower{
+	width: 50%;
+	margin: auto;
+	height: 305px;
+	align-content: center;
+	margin-top: 2%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-left: 5.7%;
+	overflow-y: auto;
+	background-color: #fc4e4e;
+	border-radius: 15px;
+}
+#editBtn{
+	margin-left: 7%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	font-weight: bold;
+	background-color: black;
+	color: #fc4e4e;
+	border: 3px solid #212121;
+}
+#delBtn ,#upBut{
+	margin-left: 2%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 1em;
+	font-weight: bold;	
+	background-color: black;
+	color: #fc4e4e;
+	border: 3px solid #212121;
+}
+ul{
+	list-style-type: upper-roman;
+	color: black;
+	font-size: 1.2em;
+}
+#index_text{
+	font-size: 1em !important;
+}
+h1 span{
+	font-variant: small-caps;
+	font-style: italic;
+}
+#design{
+	margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 380px) {
+#divUpper{
+margin-top:-33px;
+margin-bottom:3px;
+}
+#divLower{
+    width:88%;
+    padding-left:1px;
+}
+#index_text{
+    width:70%;
+}
+#design{
+ font-size: 17px;
+}
+}
